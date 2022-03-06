@@ -1,0 +1,37 @@
+section {
+  display: flex;
+    height: 85%;
+  aside,
+  nav,
+  div {
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  aside{
+    flex: 1;
+    flex: 10%;
+    overflow: hidden;
+  }
+  main{
+      flex-direction: column;
+      display: flex;
+      flex: 9;
+      nav{
+        flex: 20;
+      }
+      div{
+          flex: 90%;
+          overflow: auto;
+      }
+  }
+}
+
+footer {
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+}
